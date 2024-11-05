@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  device_screen_recorder:
+  device_screen_recorder_plus:
     path: ../
 
   cupertino_icons: ^1.0.2
