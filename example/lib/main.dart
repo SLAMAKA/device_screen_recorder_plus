@@ -1,4 +1,4 @@
-import 'package:device_screen_recorder/device_screen_recorder.dart';
+import 'package:device_screen_recorder_plus/device_screen_recorder.dart';
 import 'package:flutter/material.dart';
 
 void main() {

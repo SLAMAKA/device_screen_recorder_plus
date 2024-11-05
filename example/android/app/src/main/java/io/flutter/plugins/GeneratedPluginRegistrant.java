@@ -18,7 +18,7 @@ public final class GeneratedPluginRegistrant {
     try {
       flutterEngine.getPlugins().add(new ru.kovardin.device_screen_recorder.DeviceScreenRecorderPlugin());
     } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin device_screen_recorder, ru.kovardin.device_screen_recorder.DeviceScreenRecorderPlugin", e);
+      Log.e(TAG, "Error registering plugin device_screen_recorder_plus, ru.kovardin.device_screen_recorder.DeviceScreenRecorderPlugin", e);
     }
   }
 }
