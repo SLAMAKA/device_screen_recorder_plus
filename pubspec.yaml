@@ -1,0 +1,27 @@
+name: device_screen_recorder_plus
+description: A Flutter plugin for record the screen. This plug-in requires Android SDK 21+ and iOS 10+
+version: 0.0.1
+homepage: https://kovardin.ru
+repository: https://gitflic.ru/project/getapp/device-screen-recorder
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  pigeon: ^10.1.5
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ru.kovardin.device_screen_recorder
+        pluginClass: DeviceScreenRecorderPlugin
+
